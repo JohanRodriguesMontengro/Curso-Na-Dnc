@@ -1,6 +1,7 @@
-var Continue = "S"
+var Continuar = "S"
 
-if(Continue == "S") {
+while(Continuar == "S"){
+    Continuar = "N"
     var Verifier = "S"
    alert('Seja bem-vindo ao site de venda de cursos na DNC')
     alert(`O senhor(a) poderá escolher apenas um curso:
@@ -47,5 +48,6 @@ if(Continue == "S") {
                 Verifier = "N"
                 break;
         }  
-    }
+   }
+   Continuar = prompt('Deseja escolher outro curso? [S]im ou [N]ão', 'Digite em letras maiúscula')
 }
