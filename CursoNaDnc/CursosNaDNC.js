@@ -51,3 +51,4 @@ while(Continuar == "S"){
    }
    Continuar = prompt('Deseja escolher outro curso? [S]im ou [N]ão', 'Digite em letras maiúscula')
 }
+// Copie e cole este código no DevTolls de seu navegador
